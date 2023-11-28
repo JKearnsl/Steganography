@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "imagecoding"
+name = "image-hiding"
 version = "0.1.0"
 description = ""
 authors = ["JKearnsl <boyarshinovn@gmail.com>"]
@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-
+pillow = "^10.1.0"
 
 [build-system]
 requires = ["poetry-core"]
