@@ -1,6 +1,6 @@
 import os
 
-from src.core import img
+from src.core import steganography
 
 
 def request_int(request_text: str = "\n\nВведите число") -> int | None:
@@ -35,7 +35,7 @@ def hide_image():
     degree_count = request_int("Введите степень записи:")
     output_dir = os.path.dirname(filepath_img)
 
-    result_path = img.hide(
+    result_path = steganography.hide(
         cover_path=filepath_cover,
         img_path=filepath_img,
         output_dir=output_dir,
@@ -54,7 +54,7 @@ def reveal_image():
         print("Ошибка: Степень должна быть от [1, 8]")
         return
 
-    result_path = img.reveal(img_path=filepath_img, output_dir=output_dir, degree_count=degree_count)
+    result_path = steganography.reveal(img_path=filepath_img, output_dir=output_dir, degree_count=degree_count)
     print("Файл успешно раскрыт")
     print("Результат сохранен в файл: ", result_path)
 
