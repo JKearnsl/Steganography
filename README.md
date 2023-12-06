@@ -1,10 +1,9 @@
-# Скрытие и раскрытие изображений (Стеганография)
+# Стеганография
 
 Для работы алгоритмов требуется установить библиотеку `Pillow`
 
 ## Логика скрытия изображения
-https://github.com/JKearnsl/ImageHiding/blob/f463fbc2a796d66f2e503bfdc6b892d50ed298f2/src/core/img.py#L5-L36
-
+https://github.com/JKearnsl/ImageHiding/blob/85da07c22ffac47d6d57cbdc1501917d085c069d/src/core/steganography.py#L6-L72
 
 ## Логика раскрытия изображения
-https://github.com/JKearnsl/ImageHiding/blob/f463fbc2a796d66f2e503bfdc6b892d50ed298f2/src/core/img.py#L39-L58
+https://github.com/JKearnsl/ImageHiding/blob/85da07c22ffac47d6d57cbdc1501917d085c069d/src/core/steganography.py#L75-L108
